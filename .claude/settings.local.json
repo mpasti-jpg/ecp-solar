@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH\")",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/mateuszpasternak/**)",
+      "Bash(echo $SHELL)",
+      "Bash(source ~/.zshrc)",
+      "Bash(echo \"PATH: $PATH\")",
+      "Read(//opt/**)",
+      "Bash(echo $PATH)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(command -v npm)",
+      "Bash(ls /usr/local/bin/npm /opt/homebrew/bin/npm ~/.nvm/*/bin/npm)",
+      "Bash(sw_vers)",
+      "Bash(curl -fsSL https://nodejs.org/dist/v22.14.0/node-v22.14.0-darwin-arm64.tar.gz -o /tmp/node.tar.gz)",
+      "Bash(tar -xzf /tmp/node.tar.gz -C /tmp)",
+      "Read(//tmp/node-v22.14.0-darwin-arm64/**)",
+      "Bash(export PATH=\"/tmp/node-v22.14.0-darwin-arm64/bin:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(chmod +x /Users/mateuszpasternak/Desktop/claude_code/EPC_solar/start-dev.sh)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(/Users/mateuszpasternak/Desktop/claude_code/EPC_solar/.gitignore:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

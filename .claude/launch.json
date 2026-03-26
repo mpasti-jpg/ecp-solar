@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "EPC Solar — Vite Dev Server",
+      "runtimeExecutable": "/tmp/node-v22.14.0-darwin-arm64/bin/node",
+      "runtimeArgs": ["/Users/mateuszpasternak/Desktop/claude_code/EPC_solar/node_modules/.bin/vite"],
+      "port": 5173
+    }
+  ]
+}
